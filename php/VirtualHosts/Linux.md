@@ -12,7 +12,7 @@ Er zijn verschillende manieren om een virtual host toe te voegen op Linux. Als j
 ### Package Manager<a name="packagemanager"></a>
 
 Ik ga er vanuit dat je Ubuntu gebruikt of een variant daarvan. Ik weet niet zeker of je op andere Linux distributions de zelfde methode kan gebruiken, maar hoogswaarschijnlijk wel.
-Om een virtual host toe te voegen aan je apache moet je de volgende code invoeren:
+Om een virtual host toe te voegen aan je apache moet je de volgende command in je terminal invoeren:
 
 ```shell
 sudo nano /etc/apache2/sites-available/000-default.conf
