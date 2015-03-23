@@ -1,10 +1,17 @@
 # Git
 
 ## Inhoud's Opgave
-- [Inleiding](#Inleiding)
-- [Installeren](#Installeren)
-- [Gebruik](#Gebruik)
+- [Inleiding](#inleiding)
+- [Installeren](#installeren)
+- [Gebruik](#gebruik)
+-- [Init en Add Remote](#initenaddremote)
+-- [Clone](#clone)
+-- [Add, Commit & Push](#addcommitpush)
+-- [Checkout](#checkout)
+-- [Branch](#branch)
+-- [Merge](#merge)
 
+<a name="inleiding"></a>
 ###Inleiding
 
 Bij Crosspring maken we gebruik van Git. Git is een versiebeheersysteem. Omdat we vaak met meerdere personen aan een project werken kan het gebeuren dat we aan de zelfde code werken tegelijkertijd. Dat kan voor problemen zorgen. Om dit probleem op te lossen gebruiken we Git.
@@ -15,6 +22,7 @@ Er is ook een 'main' branch of ook wel 'master' branch genoemd. Wij maken gebrui
 
 Een repository is een plek waar alle branches samen komen. Heel je project met alle branches die zijn aangemaakt staan in de repository.
 
+<a name="installeren"></a>
 ###Installeren
 
 Git installeren is vrij simpel, je gaat naar de [Git](http://git-scm.com/) homepagina en download daar de nieuwste versie van Git door op Download for Windows/Linux/Mac te klikken. Daarna kom je op een pagina met instructies voor het installeren van Git.
@@ -29,13 +37,15 @@ git config --global push.default simple
 
 De eerste twee regels zijn nodig om je te identificeren bij het commiten. De laatste regel is een beveiliging bij het pushen naar een repository.
 
+<a name="gebruik"></a>
 ###Gebruik
 
 Om een lijst te zien voor alle commands die je met Git kan gebruiken kan je in je terminal ```git``` invoeren. Daar staan korte uitleg van wat alle functies doen binnen Git.
 
 De makkelijkste manier om git te gebruiken is via de terminal(Git Bash op Windows). Ik leg daarom ook alleen maar uit hoe je het via de terminal moet gebruiken.
 
-####init en add remote
+<a name="initenaddremote"></a>
+####Init en Add Remote
 
 Als je een nieuwe repository aan wilt maken moet je dat eerst doen op de service die je wilt gebruiken. Na het aanmaken van de repository maak je via de terminal een nieuwe map aan met de zelfde naam als de repository
 
@@ -60,6 +70,7 @@ git push -u origin master
 
 Nu heb je een nieuwe repository aangemaakt om te gebruiken. Nu kan je nieuwe files maken en toevoegen aan de repository en die committen en pushen naar de repository die je hebt gemaakt.
 
+<a name="clone"></a>
 ####Clone
 
 Om een repository te clonen die al bestaat moet je de volgende command in de terminal uitvoeren.
@@ -70,6 +81,7 @@ git clone <url>
 
 Met deze command kan je een repository clonen van een service zoals Beanstalkapp. Het url kan je verkijgen op de website van de repository die je wilt clonen. Na het clonen is er een map aangemaakt met de zelfde naam als die van de repository. Daarna kan je in de map gaan en dingen veranderen en weer omhoog gooien als je klaar bent.
 
+<a name="addcommitpush"></a>
 ####Add, Commit & Push
 
 Als je een stuk code hebt dat je in de master branch wil zetten kan je dit doen door een paar commands in te voeren. Als eerste moet je all files toevoegen aan git die je omhoog wil gooien. Dat kan gedaan worden op verschillende manieren.
@@ -98,6 +110,7 @@ git push
 
 Na ```git push``` te hebben ingevoerd moet je je gebruikersnaam en daarna wachtwoord invoeren. Als dit gedaan is worden je veranderingen naar de 'Origin' gestuurd.
 
+<a name="checkout"></a>
 ####Checkout
 
 Met checkout kan je van branch veranderen. Het kan zijn dat je met meerdere branches werkt. Zo kan het zijn dat je een Master branch hebt, maar ook een branch voor staging en development. Om te switchen tussen de verschillende branches kan je de volgende command gebruiken.
@@ -108,6 +121,7 @@ git checkout <branch naam>
 
 Als je dus meerdere branches hebt kan je zo ertussen switchen. Als je op een de branch staging zit en je wilt code pushen wordt het ook gepushed naar staging en niet naar een andere branch. Een branch moet wel eerst gemaakt worden voordat je er heen kan.
 
+<a name="branch"></a>
 ####Branch
 
 Met deze command kan je een nieuwe branch aan maken.
@@ -124,6 +138,7 @@ Om een branch te deleten kan je de volgende command gebruiken.
 git branch -d <branch naam>
 ```
 
+<a name="merge"></a>
 ####Merge
 
 Het kan zijn dat je meerdere branches met elkaar wil mergen. Om dit te doen kan je de ```git merge``` command gebruiken.

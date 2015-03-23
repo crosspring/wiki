@@ -1,5 +1,7 @@
 # Laravel Installatie
 
+[terug](../README.md)
+
 ## Inhoud's Opgave
 - [Linux](Linux.md)
 - [Windows](Windows.md)

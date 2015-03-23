@@ -1,5 +1,7 @@
 # Linux PHP installeren
 
+[terug](README.md)
+
 Uitleg over het installeren van PHP op linux.
 
 ## Inhoud
@@ -8,7 +10,8 @@ Uitleg over het installeren van PHP op linux.
 - [Package Manager](#packagemanager)
 - [Xampp](#xampp)
 
-### Inleiding<a name="inleiding"></a>
+<a name="inleiding"></a>
+### Inleiding
 
 Je kan PHP op verschillende manieren installeren, persoonlijk vind ik xampp het makkelijkste en is ook het het snelste. Maar misschien ben jij wel één van de elite en wil jij zelf php op je systeem hebben.
 
@@ -16,9 +19,11 @@ Er zijn geen echte voordelen aan een php op je eigen systeem en daarom raad ik j
 
 Ik ga er vanuit dat je Ubuntu of één van de varianten van Ubuntu Linux hebt geinstalleerd. Als je dat niet hebt zullen de verschillen waarschijnlijk niet verschikkelijk groot zijn. Maar als dat wel zo is moet je zelf in je oneindige wijsheid het probleem oplossen... of aan iemand anders vragen misschien.
 
-### Package Manager<a name="packagemanager"></a>
+<a name="packagemanager"></a>
+### Package Manager
 
-### Xampp<a name="xampp"></a>
+<a name="xampp"></a>
+### Xampp
 
 Om xampp te installeren op Linux moet je naar de volgend website gaan:
 
