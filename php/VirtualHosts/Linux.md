@@ -9,7 +9,8 @@ Korte uitleg over het instellen van virtual hosts in Linux.
 
 Er zijn verschillende manieren om een virtual host toe te voegen op Linux. Als je zelf php hebt geinstalleerd via een linux package manager met apache2 dan is de folder structuur iets anders dan via Xampp.
 
-### Package Manager<a name="packagemanager"></a>
+<a name="packagemanager"></a>
+### Package Manager
 
 Ik ga er vanuit dat je Ubuntu gebruikt of een variant daarvan. Ik weet niet zeker of je op andere Linux distributions de zelfde methode kan gebruiken, maar hoogswaarschijnlijk wel.
 Om een virtual host toe te voegen aan je apache moet je de volgende command in je terminal invoeren:

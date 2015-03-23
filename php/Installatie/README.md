@@ -1,4 +1,4 @@
-# PHP Installatie
+# Virtual Host Installatie
 
 ## Inhoud
 - [Linux](Linux.md)
