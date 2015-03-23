@@ -4,8 +4,8 @@ Verzameling van tutorials en uitleg voor Crosspring projecten.
 
 ## Inhoud
 
-- [Composer](https://github.com/jacovdbosch/crosspring/tree/master/composer)
+- [Composer](composer/README.md)
 
-- [Laravel](https://github.com/jacovdbosch/crosspring/tree/master/laravel)
+- [Laravel](laravel/README.md)
 
-- [PHP](https://github.com/jacovdbosch/crosspring/tree/master/php)
+- [PHP](php/README.md)
