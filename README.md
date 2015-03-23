@@ -2,7 +2,7 @@
 
 Verzameling van tutorials en uitleg voor Crosspring projecten.
 
-## Inhoud
+## Inhoud's opgave
 
 - [Composer](composer/README.md)
 

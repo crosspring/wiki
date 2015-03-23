@@ -1,6 +1,7 @@
 # PHP
 
-## Inhoud
+## Inhoud's opgave
+- [PHP Installeren](Installatie/README.md)
 - [Virtual Host toevoegen](VirtualHosts/README.md)
 - [Websites](#websites)
 - [Videos](#videos)

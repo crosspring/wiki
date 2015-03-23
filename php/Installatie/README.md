@@ -1,6 +1,6 @@
-# Virtual Host Installatie
+# PHP Installatie
 
-## Inhoud
+## Inhoud's opgave
 - [Linux](Linux.md)
 - [Windows](Windows.md)
 - [Mac](Mac.md)
