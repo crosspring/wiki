@@ -1,15 +1,17 @@
 # Git
 
+[terug](../README.md)
+
 ## Inhoud's Opgave
 - [Inleiding](#inleiding)
 - [Installeren](#installeren)
 - [Gebruik](#gebruik)
--- [Init en Add Remote](#initenaddremote)
--- [Clone](#clone)
--- [Add, Commit & Push](#addcommitpush)
--- [Checkout](#checkout)
--- [Branch](#branch)
--- [Merge](#merge)
+    * [Init en Add Remote](#initenaddremote)
+    * [Clone](#clone)
+    * [Add, Commit & Push](#addcommitpush)
+    * [Checkout](#checkout)
+    * [Branch](#branch)
+    * [Merge](#merge)
 
 <a name="inleiding"></a>
 ###Inleiding
