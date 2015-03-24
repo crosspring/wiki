@@ -1,11 +1,3 @@
-# Crosspring tutorials
+# Github repository voor wiki.
 
-Verzameling van tutorials en uitleg voor Crosspring projecten.
-
-## Inhoud
-
-- [Composer](composer/README.md)
-
-- [Laravel](laravel/README.md)
-
-- [PHP](php/README.md)
+[Wiki](https://github.com/jacovdbosch/crosspring/wiki)
